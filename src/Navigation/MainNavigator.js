@@ -5,6 +5,7 @@ import HomeScreen from '../screens/HomeScreen';
 import ComponentsScreen from '../screens/ComponentsScreen';
 import ListScreen from '../screens/ListScreen';
 import ImageScreen from '../screens/ImageScreen';
+import CounterScreen from '../screens/CouterScreen';
 
 const RootStack = createStackNavigator(
   {
@@ -12,6 +13,7 @@ const RootStack = createStackNavigator(
     Components: ComponentsScreen,
     List: ListScreen,
     Images: ImageScreen,
+    Counter: CounterScreen,
   },
   {
     initialRouteName: 'Home',
